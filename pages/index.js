@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import { FiMail } from "react-icons/fi";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
           FIRMA 83
         </h1>
         <p>coming soon!</p>
+        <a href="mailto:info@jellesluyts.be"><FiMail /></a>
       </main>
     </div>
   )
